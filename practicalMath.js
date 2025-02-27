@@ -1,25 +1,3 @@
-// const totalDistance = 1500;
-// const averageCost = 3;
-// const budget = 175;
-
-// function math1(miles, gallon) {
-//   let milesCalculation = totalDistance / gallon;
-//   let timeCalculation = totalDistance / miles;
-//   let totalCost = averageCost * milesCalculation;
-//   console.log(milesCalculation, timeCalculation);
-//   if (totalCost > budget) {
-//     let extra = budget - totalCost;
-//     console.log(
-//       `The amount required for the journey is ${totalCost} and the total hours needed for driving is ${timeCalculation}. That isn't cost-effective.❌❌❌ Impossible`
-//     );
-//   } else {
-//     console.log(
-//       `The amount required for the journey is ${totalCost} and the total hours needed for driving is ${timeCalculation}.Lets Go!😁😁!!!`
-//     );
-//   }
-// }
-// math1(75, 23);
-
 const distance = 1500;
 const costPerAve = 3;
 const budget = 175;
@@ -83,3 +61,27 @@ if (budget >= totalCost1 && budget >= totalCost2 && budget < totalCost3) {
 } else {
   console.log("No return");
 }
+
+
+//With Function Solution
+// const totalDistance = 1500;
+// const averageCost = 3;
+// const budget = 175;
+
+// function math1(miles, gallon) {
+//   let milesCalculation = totalDistance / gallon;
+//   let timeCalculation = totalDistance / miles;
+//   let totalCost = averageCost * milesCalculation;
+//   console.log(milesCalculation, timeCalculation);
+//   if (totalCost > budget) {
+//     let extra = budget - totalCost;
+//     console.log(
+//       `The amount required for the journey is ${totalCost} and the total hours needed for driving is ${timeCalculation}. That isn't cost-effective.❌❌❌ Impossible`
+//     );
+//   } else {
+//     console.log(
+//       `The amount required for the journey is ${totalCost} and the total hours needed for driving is ${timeCalculation}.Lets Go!😁😁!!!`
+//     );
+//   }
+// }
+// math1(75, 23);
